@@ -8,5 +8,54 @@ html, body {
 }
 
 .TodoApp {
-    background-color: tomato; /* ;) tomato */
+    background-color: rgb(244, 106, 0); /* ;) tomato */
+}
+#insDiv {
+    padding: 10px;
+}
+#txtBox {
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    font-size: 100%;
+}
+
+.btt {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(187, 187, 187);
+    font-size: 100%;
+}
+#divSx{
+    float: left;
+    width: 30%;
+    height: 50px;
+}
+
+#divList {
+    float: left;
+    width: 40%;
+}
+
+#divDx {
+    float: left;
+    width: 30%;
+    height: 50px;
+}
+
+.checkbox {
+    float: right;
+}
+
+.pdiv {
+    width: 100%;
+}
+
+#foot {
+    width: 100%;
+    float: left;
+}
+
+.pf {
+    margin: 3px;
 }

@@ -9,9 +9,30 @@
 </head>
 
 <body>
-    <section class="TodoApp">
- 
+    <section id="tdApp" class="TodoApp">
+        <div id="insDiv" align="center" class="TodoApp">
+            <input id="txtBox" class="TodoApp" type="text" align="center" placeholder="Inserisci nuovo elemento" autofocus />
+            <br/>
+            <input id="bttAdd" class="btt" type="button" value="Aggiungi"/>
+            <input id="bttRmv" class="btt" type="button" value="Rimuovi"/>
+            <input id="bttCnc" class="btt" type="button" value="Cancella"/>
+            <br/>
+        </div>
+        <div id="divSx"></div>
+        
+        <div id="divList" >
+        </div>
+        <div id="divDx">
+        </div>
     </section>
+    <div id="foot">
+        <br/>
+        <h4 class="pf">Istruzioni:</h4><br/>
+        <p class="pf">- clicca sopra il testo di un elemento per inserirlo nella casella di testo;</p><br/>
+        <p class="pf">- clicca "Aggiungi" per inserire un elemento alla lista;</p><br/>
+        <p class="pf">- clicca "Rimuovi" per cancellare dalla lista l'elemento inserito nella casella di testo;</p><br/>
+        <p class="pf">- clicca "Cancella" per svuotare la casella di testo;</p><br/>
+    </div>
 
     <script src="node_modules/js-cookie/src/js.cookie.js"></script>
     <script src="assets/js/session.js"></script>
